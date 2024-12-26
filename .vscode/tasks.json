@@ -1,0 +1,25 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "Build",
+			"command": "C:\\Program Files (x86)\\MingW64\\bin\\g++.exe",
+			"args": [
+				"-std=c++17",
+				"-fdiagnostics-color=always",
+				"${file}",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe",
+				"-lws2_32"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build",
+			"detail": "Ciallo~"
+		}]
+}
